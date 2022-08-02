@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChinesePaintingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:text="Китайская живопись"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Одним из высших достижений древнекитайского искусства является живопись, в особенности живопись на свитке. Китайская картина-свиток - это совершенно новый вид искусства, созданный специально для созерцания, освобожденный от подчиненно декоративных функций. Основными жанрами живописи на свитке были исторический и бытовой портрет, портрет, связанный с заупокойным культом, пейзаж, жанр «птицы и цветы».
+"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="В китайской картине каждый предмет глубоко символичен, каждое дерево, цветок, животное или птица является знаком поэтического образа: сосна -- это символ долголетия, бамбук - стойкости и счастья, аист - одиночества и святости и т.д. Форма китайских пейзажей - вытянутый свиток - помогала ощутить необъятность пространства, показать не какую-то часть природы, а целостность всего мироздания."/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:src="@drawable/chinese_painting1"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Традиционным жанром китайской живописи является «гохуа». Картины пишутся черной или серой тушью с помощью кисточки на бумаге или шелке. В одних случаях мастер с помощью всего лишь нескольких мазков черной туши различной толщины создает общие очертания пейзажа и человеческих фигур, не выписывая деталей. Это направление именуется «сей». Другое направление, называемое «гунби», требует тщательного воспроизведения мельчайших деталей: причесок изображаемых людей, оперенья птиц и т. п.
+"/>
+
+
+
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="400dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="226dp"
+                    android:layout_height="400dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/chinese_painting2" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/chinese_painting3" />
+
+                <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting4"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting5"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting6"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting7"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting8"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting9"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting10"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting11"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting12"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting13"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Искусство изоражения природы"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="В Китае культ природы существует с незапамятных времен и до наших дней. Картина китайского художника - это не просто пейзаж, а своего рода модель вселенной, где Небо и Земля связаны горами. Пейзажная живопись появилась в Китае на тысячу лет раньше, чем в Европе.
+"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting14"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting15"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="400dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/chinese_painting16"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>

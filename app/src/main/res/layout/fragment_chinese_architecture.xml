@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChineseArchitectureFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Архитектура"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="За пяти тысячелетнюю историю китайской цивилизации сохранилось немало архитектурных сооружений, многие из которых по праву считаются шедеврами мирового масштаба. Их разнообразие и оригинальность воплощают в себе традиции старины и лучшие достижения китайского зодчества.Подавляющее большинство строений в древнем Китае строились из дерева. Будь то жилой дом или императорский дворец, в первую очередь в землю вбивали деревянные столбы, которые вверху соединялись балками. На этом основании затем возводилась кровля, покрываемая впоследствии черепицей. Проёмы между столбами заполнялись кирпичами, глиной, бамбуком или другим материалом.
+"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Китайская архитектура восприняла немало иноземных влияний, однако устойчивость культуры Китая в том и выражается, что все новшества переосмысляются в рамках традиции и заимствованные элементы никогда таковыми не выглядят, а воспринимаются как исконно китайские.Если в официозных императорских городах, последним из которых был Запретный город в Пекине, преобладали сплетенные в симметричной гармонии пышность и строгость, в летних дворцах господствовали изящество и обаяние. Если холмов и озер не было, то их создавали, не считаясь с затратами, чтобы присутствовали все формы пейзажа на любой вкус. "
+            />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:src="@drawable/chinese_architecture1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Дворцовая архитектура"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/chinese_architecture2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/chinese_architecture3"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/chinese_architecture4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Храмы и алтари"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/chinese_architecture5"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Мемориальные сооружения"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/chinese_architecture6"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:src="@drawable/chinese_architecture7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пайлоу или Пайфан— резные орнаментированные триумфальные ворота из камня или дерева, возводившиеся в Китае в честь правителей, героев, выдающихся событий. Перекрыты одной или несколькими крышами в зависимости от числа пролётов.
+"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Гробницы"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гробницы императоров династии Мин — комплекс мавзолеев тринадцати императоров китайской династии Мин (XV—XVII вв.)
+"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/chinese_architecture8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Садово-парковая архитектура"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:src="@drawable/chinese_architecture9"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Мосты"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/chinese_architecture10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Баодайцяо «Мост драгоценного пояса») — старинный арочный мост, перекинутый через Великий Китайский канал близ города Сучжоу в провинции Цзянсу.
+"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GreatWallFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Фортификационные сооружения"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/great_wall1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Великая китайская стена"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Крупнейший памятник архитектуры. Проходит по северному Китаю на протяжении 8851,8 км (с учётом ответвлений), а на участке Бадалин проходит в непосредственной близости от Пекина.
+"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="История строительства"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/great_wall1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Строительство первой стены началось в III веке до н. э. во время правления императора Цинь Ши-хуанди (династия Цинь), в период Воюющих царств (475—221 гг. до н. э.) для защиты государства от набегов кочевого народа хунну. В строительстве участвовала пятая часть тогдашнего населения страны, то есть около миллиона человек. Стена должна была чётко зафиксировать границы китайской цивилизации, способствовать консолидации единой империи, только что составленной из ряда завоёванных царств.
+"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Интересные факты"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="При укладке каменных блоков стены употреблялась клейкая рисовая каша с примесью гашёной извести.
+Ежегодно проводится популярный легкоатлетический марафон «Великая Стена», в котором часть дистанции спортсмены бегут по гребню Стены.
+Вопреки существующему мнению, Великую китайскую стену нельзя увидеть невооружённым глазом с орбитальной станции, хотя на спутниковых снимках её видно.
+" />
+
+    </LinearLayout>
+
+</ScrollView>
